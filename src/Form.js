@@ -7,6 +7,7 @@ export default function Form(props) {
     return (
         <form>
         <h3>{movie.name}</h3>
+        <h4>Entradas Disponibles {movie.available - cantidad}</h4>
         <button type="button" onClick={() =>
          funEstado(cantidad - 1)} disabled = {cantidad <= 0}> - </button >
         {cantidad}
