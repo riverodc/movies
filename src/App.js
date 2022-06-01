@@ -9,6 +9,10 @@ const movies = [
   name: "TopGun",
   available:3, 
 },
+{
+  name: "Guardianes",
+  available:10, 
+},
 ];
 
 export default function App() {
